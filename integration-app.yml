@@ -1,0 +1,33 @@
+# integration-app.yml
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: szyrfeeham@gmail.com
+    password: lsrydosupcsmlawc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+# email:
+#   smtpEmailOrigin: szyrfeeham@gmail.com
+#   azureEmailConnectionString: endpoint=https://feehamsacs.unitedstates.communication.azure.com/;accesskey=/keR6amTcnv1ZTmggthWYCDX4rebsIO40YzHpvdwp66NuF6eGAjiBHr6qqQ9uHD2EVGAbRVnLSD1FEEzUfl5yQ==
+#   azureEmailOrigin: FEmailService@b577d209-e9b0-43da-9ec1-bc54447d7964.azurecomm.net
+
+# fcm:
+#   apiUrl: https://fcm.googleapis.com/fcm/send
+#   serverKey: AAAA7-Mn1SU:APA91bFarVfl_DQO3ej9B6rkDflcKp14xDvXO_Hxv89yCl8s6-B2HRPYZOE6fEXqPAfqc5xGs-bpOidzmmrO3FUhnivCjRnP5B__G4cvfxZPNwyzwLBGgJKm0WrNDmsjXLIKIUjKqS6H
+
+# openai:
+#   gptModel: gpt-3.5-turbo
+#   apiUrl: https://api.openai.com/v1/chat/completions
+#   apiKey: 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
+
+# # Account is created using my shartaz.work or szyr... email
+# # password is Ad...68...a98
+# twilio:
+#   accountSid: AC5391319927566fa0ddb5c928ee3a63df
+#   authToken: 8d4234ad7dfe5005c68845a2ca874967
+#   outgoingSmsNumber: +17042099406
